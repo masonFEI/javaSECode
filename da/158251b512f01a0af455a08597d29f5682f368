@@ -1,0 +1,22 @@
+pom.xml
+  h_996c2add31e3eb 1-17
+chapter17_reflect/pom.xml
+  h_996c2add31e3eb 7-9,11-12,14
+  h_e501752fc60351 10
+.gitignore
+  h_e501752fc60351 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "da158251b512f01a0af455a08597d29f5682f368",
+  "prompts": {},
+  "humans": {
+    "h_996c2add31e3eb": {
+      "author": "feixuanyu <johnny.fei@ly.com>"
+    },
+    "h_e501752fc60351": {
+      "author": "masonFEI <994085848@qq.com>"
+    }
+  }
+}

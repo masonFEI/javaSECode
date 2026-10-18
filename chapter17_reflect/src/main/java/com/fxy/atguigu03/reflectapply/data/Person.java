@@ -11,7 +11,6 @@ package com.fxy.atguigu03.reflectapply.data;
  * @version 1.0.0
  * @since 2026-10-17 21:38
  */
-@MyAnnotation
 public class Person extends Creature<String> implements Comparable<Person>, MyInterface {
 
     private String name;
@@ -39,6 +38,7 @@ public class Person extends Creature<String> implements Comparable<Person>, MyIn
         System.out.println("你好，我是一个Person");
     }
 
+    @MyAnnotation(value = "show_nation")
     private String showNation(String nation, int age) {
         return "我的国籍是：" + nation + ", 生活了" + age + "年";
     }

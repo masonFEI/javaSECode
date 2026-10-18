@@ -8,6 +8,7 @@ import com.fxy.atguigu03.reflectapply.data.Person;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 
 /**
  * FieldsTest
@@ -33,6 +34,32 @@ public class FieldsTest {
         for (Field declaredField : declaredFields) {
             System.out.println(declaredField);
         }
+    }
+
+    @Test
+    public void test2() {
+        Class<Person> clazz = Person.class;
+        Field[] declaredFields = clazz.getDeclaredFields();
+
+        for (Field f : declaredFields) {
+            // 权限修饰符
+            int modifier = f.getModifiers();
+            System.out.println(modifier + ":" + Modifier.toString(modifier) + "\t");
+            System.out.println("========================");
+
+            // 数据类型
+            Class type = f.getType();
+            System.out.println(type.getName() + "\t");
+            System.out.println("========================");
+
+
+            // 变量名
+            String name = f.getName();
+            System.out.println(name + "\t");
+            System.out.println("========================");
+        }
+
+
     }
 
 }

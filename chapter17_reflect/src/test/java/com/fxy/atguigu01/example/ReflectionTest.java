@@ -49,7 +49,7 @@ public class ReflectionTest {
     }
 
     /**
-     * 除了Person类之后，就不能直接调用Person类中声明的private权限修饰的结构（属性，方法，构造器）
+     * 出了Person类之后，就不能直接调用Person类中声明的private权限修饰的结构（属性，方法，构造器）
      * <p>
      * 但是我们可以通过反射的方式，调用Person类中声明的private权限修饰的结构 --> 暴力反射
      *

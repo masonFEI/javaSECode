@@ -42,21 +42,21 @@ public class FieldsTest {
         Field[] declaredFields = clazz.getDeclaredFields();
 
         for (Field f : declaredFields) {
+            System.out.print("( ");
+
             // 权限修饰符
             int modifier = f.getModifiers();
-            System.out.println(modifier + ":" + Modifier.toString(modifier) + "\t");
-            System.out.println("========================");
+            System.out.print(modifier + ":" + Modifier.toString(modifier) + "\t");
 
             // 数据类型
             Class type = f.getType();
-            System.out.println(type.getName() + "\t");
-            System.out.println("========================");
-
+            System.out.print(type.getName() + "\t");
 
             // 变量名
             String name = f.getName();
-            System.out.println(name + "\t");
-            System.out.println("========================");
+            System.out.print(name + "\t");
+
+            System.out.print(")");
         }
 
 

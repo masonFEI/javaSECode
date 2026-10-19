@@ -43,6 +43,11 @@ public class Person extends Creature<String> implements Comparable<Person>, MyIn
         return "我的国籍是：" + nation + ", 生活了" + age + "年";
     }
 
+
+    public static void showInfo() {
+        System.out.println("我是一个人");
+    }
+
     @Override
     public void method() {
 

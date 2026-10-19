@@ -1,0 +1,20 @@
+chapter17_reflect/src/test/java/com/fxy/atguigu01/example/ReflectionTest.java
+  h_e501752fc60351 52
+chapter17_reflect/src/test/java/com/fxy/atguigu03/reflectapply/FieldsTest.java
+  h_e501752fc60351 45-46,49,53,57-59
+chapter17_reflect/src/test/java/com/fxy/atguigu03/reflectapply/NewInstanceTest.java
+  h_e501752fc60351 25-26
+笔记.md
+  h_e501752fc60351 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "f0341099509b96818dc96af62112169288414884",
+  "prompts": {},
+  "humans": {
+    "h_e501752fc60351": {
+      "author": "masonFEI <994085848@qq.com>"
+    }
+  }
+}

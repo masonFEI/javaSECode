@@ -27,6 +27,7 @@ public class ReflectTest {
      */
     public <T> T getInstance(String className) throws Exception {
         Class clazz = Class.forName(className);
+        // 最好使用这种方式的反射构造器，jdk9+支持
         Constructor constructor = clazz.getDeclaredConstructor();
         constructor.setAccessible(true);
         return (T) constructor.newInstance();

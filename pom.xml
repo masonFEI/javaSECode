@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>chapter17_reflect</module>
+        <module>chapter13_generic</module>
     </modules>
 
 

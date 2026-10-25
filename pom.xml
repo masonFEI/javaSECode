@@ -7,6 +7,7 @@
     <modules>
         <module>chapter17_reflect</module>
         <module>chapter13_generic</module>
+        <module>chapter11_annotation</module>
     </modules>
 
 
